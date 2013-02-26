@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exemel_encoding.erl" afterPath="$PROJECT_DIR$/src/exemel_encoding.erl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exemel.app.src" afterPath="$PROJECT_DIR$/src/exemel.app.src" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rebar.config" afterPath="$PROJECT_DIR$/rebar.config" />
     </list>
     <ignored path="exemel.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361867170889" ignored="false" />
     <file path="/exemel_encoding.hrl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361868126524" ignored="false" />
     <file path="/exemel_encoding.erl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361894741320" ignored="false" />
+    <file path="/rebar.config" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361895682878" ignored="false" />
+    <file path="/exemel.app.src" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361895828654" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,28 +71,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="exemel_encoding.erl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exemel_encoding.erl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exemel_encoding.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="-0.030303031">
+            <state line="7" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="re.erl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///usr/lib/erlang/lib/stdlib-1.17.5/src/re.erl">
+      <file leaf-file-name="rebar.config" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rebar.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="585" column="99" selection-start="18074" selection-end="18074" vertical-scroll-proportion="0.0">
+            <state line="2" column="51" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exemel_encoding.hrl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exemel_encoding.hrl">
+      <file leaf-file-name="exemel.app.src" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exemel.app.src">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+            <state line="9" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.27272728">
               <folding />
             </state>
           </provider>
@@ -115,6 +118,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/exemel_encoding.hrl" />
         <option value="$PROJECT_DIR$/src/exemel_encoding.erl" />
+        <option value="$PROJECT_DIR$/rebar.config" />
+        <option value="$PROJECT_DIR$/src/exemel.app.src" />
       </list>
     </option>
   </component>
@@ -183,6 +188,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c_src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -202,7 +247,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Erlang Rebar.Rebar Eunit">
+  <component name="RunManager" selected="Erlang Rebar.Rebar Compile">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -373,7 +418,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1217" height="925" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -459,23 +504,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemel_encoding.hrl">
+    <entry file="file://$PROJECT_DIR$/src/exemel_encoding.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+        <state line="7" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rebar.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/erlang/lib/stdlib-1.17.5/src/re.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="585" column="99" selection-start="18074" selection-end="18074" vertical-scroll-proportion="0.0">
+        <state line="585" column="99" selection-start="18074" selection-end="18074" vertical-scroll-proportion="0.3939394">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemel_encoding.erl">
+    <entry file="file://$PROJECT_DIR$/src/exemel_encoding.hrl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="-0.030303031">
+        <state line="4" column="27" selection-start="91" selection-end="91" vertical-scroll-proportion="0.121212125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemel.app.src">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.27272728">
           <folding />
         </state>
       </provider>

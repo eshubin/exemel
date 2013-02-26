@@ -6,7 +6,8 @@
     {applications, [
       kernel,
       stdlib,
-      xmerl
+      xmerl,
+      iconv
     ]},
     {mod, {exemel_app, []}},
     {env, []}
