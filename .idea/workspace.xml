@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exemel_encoding.erl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exemel_encoding.hrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exemel.app.src" afterPath="$PROJECT_DIR$/src/exemel.app.src" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exemel_app.erl" afterPath="$PROJECT_DIR$/src/exemel_app.erl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exemel_sup.erl" afterPath="$PROJECT_DIR$/src/exemel_sup.erl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exemel_encoding.erl" afterPath="$PROJECT_DIR$/src/exemel_encoding.erl" />
     </list>
     <ignored path="exemel.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361867170889" ignored="false" />
     <file path="/exemel_encoding.hrl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361868126524" ignored="false" />
-    <file path="/exemel_encoding.erl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361870088090" ignored="false" />
+    <file path="/exemel_encoding.erl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361894741320" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,16 @@
       <file leaf-file-name="exemel_encoding.erl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exemel_encoding.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="163" selection-end="163" vertical-scroll-proportion="0.31120333">
+            <state line="7" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="-0.030303031">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="re.erl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///usr/lib/erlang/lib/stdlib-1.17.5/src/re.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="585" column="99" selection-start="18074" selection-end="18074" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -382,8 +387,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24978614" sideWeight="0.6705277" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15825492" sideWeight="0.6705277" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -461,9 +466,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/lib/erlang/lib/stdlib-1.17.5/src/re.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="585" column="99" selection-start="18074" selection-end="18074" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/exemel_encoding.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="163" selection-end="163" vertical-scroll-proportion="0.31120333">
+        <state line="7" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="-0.030303031">
           <folding />
         </state>
       </provider>
