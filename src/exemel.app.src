@@ -1,13 +1,13 @@
 {application, exemel,
- [
-  {description, ""},
-  {vsn, "1"},
-  {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib,
-                  xmerl
-                 ]},
-  {mod, { exemel_app, []}},
-  {env, []}
- ]}.
+  [
+    {description, ""},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib,
+      xmerl
+    ]},
+    {mod, {exemel_app, []}},
+    {env, []}
+  ]}.

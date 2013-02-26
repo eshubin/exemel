@@ -10,7 +10,7 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-    exemel_sup:start_link().
+  exemel_sup:start_link().
 
 stop(_State) ->
-    ok.
+  ok.
