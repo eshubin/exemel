@@ -9,6 +9,5 @@
       xmerl,
       iconv
     ]},
-    {mod, {exemel_app, []}},
     {env, []}
   ]}.
