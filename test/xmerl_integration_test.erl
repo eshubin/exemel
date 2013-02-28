@@ -30,11 +30,10 @@ prepared_xmerl_test_() ->
             Parsed
           ),
           [Content] = Parsed#xmlElement.content,
-          ?debugVal(Content#xmlText.value),
-          Text = "Австралийский доллар",
+          Text = <<"Австралийский доллар">>,
           ?assertEqual(
             Text,
-            unicode:characters_to_list(Content#xmlText.value, unicode)
+            unicode:characters_to_binary(Content#xmlText.value, unicode)
           )
         end
       )
