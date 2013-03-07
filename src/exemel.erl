@@ -2,9 +2,14 @@
 
 
 %% API
--export([prepare/1]).
+-export([prepare/1, start/0]).
 
 -include("exemel_encoding.hrl").
+
+
+start() ->
+  application:start(iconv),
+  application:start(exemel).
 
 prepare(XML) ->
   #encoding_info{name = Encoding, offset = Offset} = exemel_encoding:detect(XML),
@@ -16,7 +21,7 @@ prepare_test_() ->
   {
     setup,
     fun() ->
-      application:start(iconv)
+      start()
     end,
     fun(_) ->
       application:stop(iconv)

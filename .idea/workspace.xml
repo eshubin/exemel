@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" name="Default" comment="" />
+    <list default="true" id="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exemel.erl" afterPath="$PROJECT_DIR$/src/exemel.erl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/xmerl_integration_test.erl" afterPath="$PROJECT_DIR$/test/xmerl_integration_test.erl" />
+    </list>
     <ignored path="exemel.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1362054700363" ignored="false" />
@@ -10,8 +14,8 @@
     <file path="/rebar.config" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361895682878" ignored="false" />
     <file path="/exemel.app.src" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361895828654" ignored="false" />
     <file path="/exemel_converter.erl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1361977900911" ignored="false" />
-    <file path="/exemel.erl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1362043950313" ignored="false" />
-    <file path="/xmerl_integration_test.erl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1362054608573" ignored="false" />
+    <file path="/exemel.erl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1362648083640" ignored="false" />
+    <file path="/xmerl_integration_test.erl" changelist="fd3ed259-a2d4-43a0-ae6c-0b3a18e7207d" time="1362648124746" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +83,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="rebar.config" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rebar.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="83" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="exemel_conv.erl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exemel_conv.erl">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,7 +104,7 @@
       <file leaf-file-name="exemel.erl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exemel.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="54" selection-start="835" selection-end="855" vertical-scroll-proportion="0.0">
+            <state line="23" column="13" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,16 +113,7 @@
       <file leaf-file-name="xmerl_integration_test.erl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/xmerl_integration_test.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="759" selection-end="759" vertical-scroll-proportion="0.6969697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xmerl.hrl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///usr/lib/erlang/lib/xmerl-1.2.10/include/xmerl.hrl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="8" selection-start="2766" selection-end="2766" vertical-scroll-proportion="0.0">
+            <state line="14" column="20" selection-start="293" selection-end="293" vertical-scroll-proportion="0.42424244">
               <folding />
             </state>
           </provider>
@@ -138,8 +142,8 @@
         <option value="$PROJECT_DIR$/rebar.config" />
         <option value="$PROJECT_DIR$/src/exemel_converter.erl" />
         <option value="$PROJECT_DIR$/src/exemel_conv.erl" />
-        <option value="$PROJECT_DIR$/src/exemel.erl" />
         <option value="$PROJECT_DIR$/src/exemel.app.src" />
+        <option value="$PROJECT_DIR$/src/exemel.erl" />
         <option value="$PROJECT_DIR$/test/xmerl_integration_test.erl" />
       </list>
     </option>
@@ -448,7 +452,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19846022" sideWeight="0.6705277" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -544,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rebar.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="83" selection-start="105" selection-end="105" vertical-scroll-proportion="0.121212125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exemel_conv.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="18" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
@@ -579,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemel.app.src">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/erlang/lib/eunit-2.2.1/include/eunit.hrl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="390" column="14" selection-start="12097" selection-end="12103" vertical-scroll-proportion="-4.44">
@@ -600,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemel.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="54" selection-start="835" selection-end="855" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/erlang/lib/xmerl-1.2.10/include/xmerl.hrl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="8" selection-start="2766" selection-end="2766" vertical-scroll-proportion="0.0">
@@ -614,9 +597,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemel.app.src">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rebar.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="83" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemel.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/xmerl_integration_test.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="759" selection-end="759" vertical-scroll-proportion="0.6969697">
+        <state line="14" column="20" selection-start="293" selection-end="293" vertical-scroll-proportion="0.42424244">
           <folding />
         </state>
       </provider>

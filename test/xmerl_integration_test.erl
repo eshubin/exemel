@@ -12,7 +12,7 @@ prepared_xmerl_test_() ->
   {
     setup,
     fun() ->
-      application:start(iconv)
+      exemel:start()
     end,
     fun(_) ->
       application:stop(iconv)
