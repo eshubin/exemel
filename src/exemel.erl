@@ -42,7 +42,7 @@ prepare_test_() ->
       ?_test(
         begin
           {ok, Data} = file:read_file("../priv/rus.xml"),
-          ?assertEqual("\r\n<Name>Австралийский доллар</Name>\r\n", prepare(binary_to_list(Data)))
+          ?assertEqual("\r\n<Name>Австралийский доллар</Name>\r\n", lists:flatten(io_lib:format("~ts",[list_to_binary(prepare(binary_to_list(Data)))]))) 
         end
       )
     ]
