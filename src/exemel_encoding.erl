@@ -5,7 +5,7 @@
 %% API
 -export([detect/2, detect/1]).
 
--define(ENCONING_RE, "^\\<\\?xml.+?encoding=\"([^\"]+)\".+?\\?\\>").
+-define(ENCONING_RE, "^\\<\\?xml.+?encoding=\"([^\"]+)\".*?\\?\\>").
 
 detect(Data, Default) ->
   case re:run(Data, ?ENCONING_RE) of
