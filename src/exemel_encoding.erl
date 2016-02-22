@@ -30,6 +30,9 @@ detection_test_() ->
   [
     ?_assertEqual(#encoding_info{name = "utf-8", offset = 0}, detect("", "utf-8")),
     ?_assertEqual(#encoding_info{name = "windows-1251", offset = 32}, detect("<?xml encoding=\"windows-1251\" ?>", "utf-8")),
+    ?_assertEqual(#encoding_info{name = "windows-1251", offset = 45}, detect("<?xml version=\"1.0\" encoding=\"windows-1251\"?>")),
+    ?_assertEqual(#encoding_info{name = "windows-1251", offset = 46}, detect("<?xml version=\"1.0\" encoding=\"windows-1251\" ?>")),
+    ?_assertEqual(#encoding_info{name = "windows-1251", offset = 47}, detect("<?xml version=\"1.0\" encoding=\"windows-1251\"  ?>")),
     ?_assertEqual(#encoding_info{name = "koi8r", offset = 25}, detect("<?xml encoding=\"koi8r\" ?>")),
     ?_assertMatch(#encoding_info{name = "koi8r"}, detect("<?xml version=\"1.0\" encoding=\"koi8r\" ?>")),
     ?_assertMatch(#encoding_info{name = "koi8r"}, detect("<?xml encoding=\"koi8r\" version=\"1.0\"?>"))
